@@ -11,7 +11,9 @@ export OPENAI_API_KEY="xxxxxxxx"
 export OPENAI_API_BASE="xxxxxxxxxx"
 export PINECONE_API_KEY="xxxxxxx"
 export PINECONE_ENVIRONMENT="xxxxx"
-# python ./src/main.py --user
+
+# start the project
+python ./src/main.py
 
 
 
