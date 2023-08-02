@@ -1,4 +1,16 @@
-# personal_kb_with_gpt
+# QA-GPT
+
+## Introduction
+
+QA-GPT is a Q&A project based on chat-GPT, which can be used to build custom Q&A systems. You can upload your own documents, and the system will split these documents into chunks and transform them into embeddings. Then, users can submit questions and get answers about these documents from QA-GPT.
+
+Currently, QA-GPT allows users to submit documents in the following formats:
+
+- txt
+- pdf
+- markdown
+
+It uses Chromadb as an embeddings storage backend, but you can also change it to other vector databases. Once the vectors are created, they will be loaded from the vector database directly when the system starts the next time. This will save the quota of OpenAI API calls.
 
 ## Installation
 

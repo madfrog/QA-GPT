@@ -110,17 +110,17 @@ if __name__=="__main__":
     init_qa_engine()
     app = gr.Blocks()
     with app:
-        with gr.Tab('文档上传'):
+        with gr.Tab('Upload docs'):
             files = gr.File(file_count="multiple", file_types=["text", ".json", ".md", ".pdf"], type="file", label='files')
-            parsing_bnt = gr.Button('开始解析文档')
+            parsing_bnt = gr.Button('Begin to parse docs')
             upload_result = gr.HighlightedText(show_legend=False)
 
-        with gr.Tab('问答'):
+        with gr.Tab('Q&A'):
             with gr.Column():
-                input_text = gr.Textbox(label='问题', lines=5)
-                qa_bnt = gr.Button('提交')
+                input_text = gr.Textbox(label='Qestion', lines=5)
+                qa_bnt = gr.Button('Submit')
             with gr.Column():
-                output_text = gr.Textbox(label='答案', lines=5)
+                output_text = gr.Textbox(label='Answer', lines=5)
 
         parsing_bnt.click(parsing_files, inputs=files, outputs=upload_result)
         qa_bnt.click(chatbot, inputs=input_text, outputs=output_text)
