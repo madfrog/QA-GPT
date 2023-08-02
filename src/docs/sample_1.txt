@@ -1,0 +1,9 @@
+Few-shot Learning（少样本学习）是Meta Learning（元学习）中的一个实例[1]，所以在了解什么是Few-shot Learning之前有必要对Meta Learning有一个简单的认识。不过在了解什么是Meta Learning之前还是要了解一下什么是Meta。因此，阅读本文后你将对如下知识有一个初步的了解。
+
+What is Meta
+What is Meta Learning
+What is Few-shot Learning
+1. What is Meta?
+meta就是描述数据的数据。
+
+比如照片，我们看到的是它呈现出来的数据， 即Data，但它还含有许多描述它拍摄参数的数据，比如光圈、快门速度、相机品牌等，即Meta。
