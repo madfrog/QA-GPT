@@ -1,16 +1,16 @@
 #!/bin/bash
 
 # Fow powershell
-# $env:OPENAI_API_KEY="fk209486-xDjE8UqjQBu3fwiFCeghPwizhoOKmNCa"
-# $env:OPENAI_API_BASE="https://openai.api2d.net/v1"
-# $env:PINECONE_API_KEY="8b227189-dd13-4a59-9ddc-1e4b40d55ce3"
-# $env:PINECONE_ENVIRONMENT="northamerica-northeast1-gcp"
+$env:OPENAI_API_KEY="xxxxxxxxxxx"
+$env:OPENAI_API_BASE="xxxxxxxxxxx"
+$env:PINECONE_API_KEY="xxxxxxxxxxxxx"
+$env:PINECONE_ENVIRONMENT="xxxxxxxxxxxxxxx"
 
 # For MacOS
-export OPENAI_API_KEY="fk209486-xDjE8UqjQBu3fwiFCeghPwizhoOKmNCa"
-export OPENAI_API_BASE="https://openai.api2d.net/v1"
-export PINECONE_API_KEY="8b227189-dd13-4a59-9ddc-1e4b40d55ce3"
-export PINECONE_ENVIRONMENT="northamerica-northeast1-gcp"
+export OPENAI_API_KEY="xxxxxxxx"
+export OPENAI_API_BASE="xxxxxxxxxx"
+export PINECONE_API_KEY="xxxxxxx"
+export PINECONE_ENVIRONMENT="xxxxx"
 # python ./src/main.py --user
 
 
