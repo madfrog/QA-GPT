@@ -2,7 +2,7 @@
 
 ## Introduction
 
-QA-GPT is a Q&A project based on chat-GPT, which can be used to build custom Q&A systems. You can upload your own documents, and the system will split these documents into chunks and transform them into embeddings. Then, users can submit questions and get answers about these documents from QA-GPT.
+QA-GPT is a Q&A project based on chat-GPT, which can be used to build custom Q&A systems. With QA-GPT you can build your own knowledge base and question on your knowledge base. All you need to do is uploading your documents, QA-GPT will split these documents into chunks and transform them into embeddings automatically. Then users can submit questions and get answers about these documents.
 
 Currently, QA-GPT allows users to submit documents in the following formats:
 
