@@ -13,7 +13,7 @@ export PINECONE_API_KEY="xxxxxxx"
 export PINECONE_ENVIRONMENT="xxxxx"
 
 # start the project
-python ./src/main.py
+python ./src/qa_lc_app.py
 
 
 
